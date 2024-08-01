@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             isClear = true;
             calculator.setOperator(((Button)v).getText().toString().charAt(0));
+            // This line is added by alishba0001
         }
     };
     @Override
